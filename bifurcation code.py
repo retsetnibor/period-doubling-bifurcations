@@ -23,9 +23,6 @@ for i in range(iterations):
         ax.plot(r, x, ',k', alpha=.25)
 ax.set_xlim(0, 20);
 
-#find points s.t period doubles
-
-
 #this section will find the bifurcation points of the map using scipy's fsolve function (newtons method). Add more equations to find higher period bifurcations.
 def system(p):
     
